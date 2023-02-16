@@ -1,4 +1,4 @@
-## Jogo Freeway no Atari desenvolvido em JavaScript.
+## Jogo Freeway do Atari desenvolvido em JavaScript.
 
 #
 
