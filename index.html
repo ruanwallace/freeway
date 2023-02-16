@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Freeway</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <canvas width="600" height="400"></canvas>
+            <button id="play">Começar</button>
+        </div>
+
+        <img id="estrada" src="./imagens/estrada.png" style="display: none">
+        <img id="carro1" src="./imagens/carro1.png" style="display: none">
+        <img id="carro2" src="./imagens/carro2.png" style="display: none">
+        <img id="carro3" src="./imagens/carro3.png" style="display: none">
+        <img id="galinha" src="./imagens/galinha.gif" style="display: none">
+        
+        <audio id="colisao" src="./sons/colidiu.mp3"></audio>
+        <audio id="ponto" src="./sons/pontos.wav"></audio>
+        <audio id="trilha" src="./sons/trilha.mp3" loop></audio>
+
+        <script src="carros.js"></script>
+        <script src="galinha.js"></script>
+        <script src="freeway.js"></script>
+    </body>
+</html>
